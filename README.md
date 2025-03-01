@@ -1,3 +1,12 @@
+# Real-time Data Processing Pipeline with Kafka on AWS EC2  
+
+This project sets up a real-time data pipeline using **Apache Kafka** on an **EC2 instance**, streaming data to **AWS S3** for further processing with **AWS Glue, Athena, and QuickSight**. Kafka is configured to handle **producer-consumer communication** with a secure public IP setup, enabling external data streaming.  
+
+The pipeline is extended with **Jupyter Notebooks**, integrating **Python-based Kafka producers and consumers** for real-time data ingestion into S3. **AWS Glue crawlers** transform and catalog data, allowing seamless querying via **Athena** and visualization through **QuickSight**.  
+
+This project demonstrates a fully functional, **cloud-based event-driven architecture** with real-time **data streaming, storage, and analytics** using AWS services.  
+
+
 # **Apache Kafka - Distributed Event Streaming on AWS**
 
 ## **Overview**
